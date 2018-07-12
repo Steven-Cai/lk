@@ -5,7 +5,6 @@ CONF_DIR	:= conf
 all:raspberry-pi
 
 raspberry-pi:
-	DISTRO="raspberrypi" MACHINE="rpi-generic" \
 	./scripts/build.sh rpi-image
 
 clean:
