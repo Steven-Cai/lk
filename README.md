@@ -6,6 +6,8 @@ This project is used to create image for Raspberry Pi board.
 
     `git submodule update --init`
 
-2. Build rpi-test-image
+2. Build image and SDK
 
     `make`
+
+    `make raspberry-pi-sdk`
